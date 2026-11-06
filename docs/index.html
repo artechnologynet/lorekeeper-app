@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)" />
+    <meta
+      name="description"
+      content="LoreKeeper by ARTEC: herramienta de gestión editorial y desarrollo de lore narrativo para autores. Política de privacidad."
+    />
+    <title>LoreKeeper by ARTEC · Política de Privacidad</title>
+    <style>
+      :root {
+        --bg: #fafaf9;
+        --surface: #ffffff;
+        --text: #1c1917;
+        --muted: #57534e;
+        --border: #e7e5e4;
+        --accent: #b45309;
+        --accent-soft: #fef3c7;
+        --link: #92400e;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #09090b;
+          --surface: #18181b;
+          --text: #f4f4f5;
+          --muted: #a1a1aa;
+          --border: #27272a;
+          --accent: #f59e0b;
+          --accent-soft: #292108;
+          --link: #fbbf24;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+          Arial, sans-serif;
+        line-height: 1.65;
+      }
+
+      a {
+        color: var(--link);
+        text-underline-offset: 3px;
+      }
+
+      a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+        border-radius: 2px;
+      }
+
+      .wrap {
+        max-width: 46rem;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+      }
+
+      header.hero {
+        padding: 4rem 0 2.5rem;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 0 0 1rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      .eyebrow::before {
+        content: "";
+        width: 0.375rem;
+        height: 1.25rem;
+        border-radius: 999px;
+        background: var(--accent);
+      }
+
+      h1 {
+        margin: 0 0 0.75rem;
+        font-size: clamp(2rem, 6vw, 2.75rem);
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+      }
+
+      h1 span {
+        color: var(--muted);
+        font-weight: 500;
+      }
+
+      .lead {
+        margin: 0;
+        max-width: 38rem;
+        font-size: 1.125rem;
+        color: var(--muted);
+      }
+
+      main {
+        padding: 2.5rem 0 3rem;
+      }
+
+      h2 {
+        margin: 0 0 0.25rem;
+        font-size: 1.5rem;
+        letter-spacing: -0.01em;
+      }
+
+      .updated {
+        margin: 0 0 1.75rem;
+        font-size: 0.875rem;
+        color: var(--muted);
+      }
+
+      .card {
+        margin: 0 0 1rem;
+        padding: 1.25rem 1.375rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 0.875rem;
+      }
+
+      .card h3 {
+        margin: 0 0 0.5rem;
+        font-size: 1.0625rem;
+      }
+
+      .card p {
+        margin: 0 0 0.75rem;
+      }
+
+      .card p:last-child,
+      .card ul:last-child {
+        margin-bottom: 0;
+      }
+
+      .card ul {
+        margin: 0 0 0.75rem;
+        padding-left: 1.25rem;
+      }
+
+      .card li + li {
+        margin-top: 0.35rem;
+      }
+
+      code {
+        padding: 0.1rem 0.4rem;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.875em;
+        background: var(--accent-soft);
+        border-radius: 0.375rem;
+      }
+
+      footer {
+        padding: 1.75rem 0 3rem;
+        border-top: 1px solid var(--border);
+        font-size: 0.875rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="hero">
+      <div class="wrap">
+        <p class="eyebrow">ARTEC</p>
+        <h1>LoreKeeper <span>by ARTEC</span></h1>
+        <p class="lead">
+          Herramienta de gestión editorial y desarrollo de lore narrativo para
+          autores.
+        </p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <h2 id="privacidad">Política de Privacidad</h2>
+      <p class="updated">Última actualización: noviembre de 2026</p>
+
+      <section class="card" aria-labelledby="datos">
+        <h3 id="datos">Tratamiento de datos</h3>
+        <p>
+          Todo el contenido que creas en LoreKeeper (manuscritos, fichas de
+          entidades, glosario, compendio, ajustes y conversaciones del
+          asistente) se procesa y almacena <strong>localmente en tu
+          dispositivo</strong>.
+        </p>
+        <p>
+          ARTEC no opera servidores propios de recolección de datos personales:
+          no recibimos, almacenamos ni vendemos tu información ni tu obra.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="drive">
+        <h3 id="drive">Uso de Google Drive (alcance <code>drive.file</code>)</h3>
+        <p>
+          La conexión con Google Drive es opcional y solo se activa cuando tú la
+          autorizas. LoreKeeper solicita únicamente el alcance
+          <code>https://www.googleapis.com/auth/drive.file</code>.
+        </p>
+        <ul>
+          <li>
+            La app crea una carpeta exclusiva llamada <strong>LoreKeeper</strong>
+            para guardar respaldos en JSON y Markdown y exportaciones en
+            <code>.docx</code>.
+          </li>
+          <li>
+            Tiene acceso <strong>únicamente a los archivos que ella misma
+            genera</strong>; no puede ver ni modificar el resto de tu Drive.
+          </li>
+          <li>
+            El token de acceso se mantiene solo en memoria durante la sesión. En
+            tu dispositivo se guarda únicamente el estado de la conexión
+            (cuenta y fecha de la última sincronización).
+          </li>
+        </ul>
+        <p>
+          Puedes desconectar la cuenta desde Ajustes, eliminar la carpeta
+          LoreKeeper de tu Drive o revocar el acceso en
+          <a
+            href="https://myaccount.google.com/permissions"
+            target="_blank"
+            rel="noopener noreferrer"
+            >myaccount.google.com/permissions</a
+          >.
+        </p>
+        <p>
+          El uso de la información recibida de las API de Google se ajusta a la
+          <a
+            href="https://developers.google.com/terms/api-services-user-data-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Política de Datos de Usuario de los Servicios de API de Google</a
+          >, incluidos los requisitos de Uso Limitado.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="ia">
+        <h3 id="ia">Funciones de IA</h3>
+        <p>
+          Las funciones de análisis, fusión y asistente funcionan con tu propia
+          clave de la API de Gemini, que se guarda solo en tu dispositivo y no
+          se incluye en los respaldos.
+        </p>
+        <p>
+          Los fragmentos literarios necesarios se envían <strong>bajo demanda</strong>
+          y directamente desde tu dispositivo a la API de Gemini cuando tú
+          ejecutas una acción de IA. LoreKeeper no conserva esos fragmentos en
+          servidores externos ni los utiliza para reentrenar modelos.
+        </p>
+        <p>
+          El tratamiento que realiza Google sobre esas solicitudes se rige por
+          los términos de la API de Gemini asociados a tu clave.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="control">
+        <h3 id="control">Control sobre tus datos</h3>
+        <p>
+          Puedes exportar tu proyecto, restaurarlo o borrar todos los datos
+          locales desde Ajustes en cualquier momento. Al desinstalar la app, los
+          datos locales se eliminan del dispositivo.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="cambios">
+        <h3 id="cambios">Cambios en esta política</h3>
+        <p>
+          Si esta política cambia, publicaremos la versión actualizada en esta
+          misma página junto con su fecha de revisión.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="contacto">
+        <h3 id="contacto">Contacto</h3>
+        <p>
+          Para dudas o solicitudes sobre privacidad, escribe al desarrollador:
+        </p>
+        <p>
+          <!-- PENDIENTE: reemplazar CORREO_DE_CONTACTO (2 veces) por el correo real. -->
+          <a href="mailto:CORREO_DE_CONTACTO">artec017@gmail.com</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        © 2026 ARTEC · LoreKeeper
+      </div>
+    </footer>
+  </body>
+</html>
